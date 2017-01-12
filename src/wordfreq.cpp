@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 	map<string, int> word_map;
 	while (cin >> word)
 	{
-		if (word_map[word] == NULL)
+		if (word_map[word] == 0)
 		{
 			word_map[word] = 1;
 		}
